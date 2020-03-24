@@ -1,0 +1,43 @@
+Question: How Difficult Would You Say This Assignment Was?
+
+Answer: In comparison to the other assignments from this term, I would say that this assignment is comparableto the hunt the wumpus game in difficulty. While it felt like the large focus of the hunt the wumpus game however was on the understanding of polymorphism, where as it felt more so that this final assignment was entirely encompassing of the content of the course, and there for more time consuming, and therefor more difficult
+
+Question: What Was Most Difficult To Implement?
+
+Answer: The Hardest thing in my opinion to implement was a relationship between the level and maze classes during the iplementation phase, as deciding how to set the elements and move through the maze needed to have a set system that would make traversal easiest. I eventually decided to have each part of the maze have elements that are cahred, and use the Maze as a awhle to hold mmultiple of the maze, and traverse printing and gathering infroamtion, while the level class contained the actual implemented objects
+
+Question: What Was The Easiest To Implement?
+
+Answer: The Easiest thing to implement in my opinion was the error handling of the program, and the use of catch and throuw, as well as continuous practice throughout the term made catching errors easier, and eliminted erors thoughout
+
+Question: What Decisions or Assumptions Did You Make About How To Design The Program?
+
+Answer: When Designing this program, I took a lot of of the decsions of the way traversal and setting worked from my hunt the wumpus game, as the 2 games had many parralles that could be utilized such as how to move around the player, how to detect encounters, and how to print and allocate the maze. Some assumptions I made Were that a wall classes boolean values for what it contains, and its display charector would never change, so that would be static, as well as that the persons would all be implemented with virtual functions and their own fucntions for their special propertises, which the open and wall classes didnt have
+
+Question: What Was Your Test Plan For Your Program?
+
+Answer: I tested this program in the way I have tested any program so far. First off, in oder to make sure I know what container is what, during the printing phase, I always print the coordinate system into blocks, thsway, I can determine during any testing that soethig has worked propporly on the map or not, such a movement or placement. Next, I implement each phase of implementation one by one, and ensure it works before moving onto the next one. As an example, I want to implement tas.  I begin by making the class, testing it, then placeing them on the map, testing, then having them move, then testing, then setting up their encounters, then testing.
+
+Question: How Did Your Testing Work Out? What Bugs Did You Find and How Did You Fix Them?
+
+Answer: This was, unusually to myself, the least buggy testing I have ever gone through. I found that, Most of the time, If I tried It, It worked, which was nice and wierd, because there was this ambiguity where I really didnt know what Imight have been doing wrong. I did find bugs mostly int he movement that mostly needed checking on how I manipulated the coordinate system.
+
+Question: What Problems Did You Run Into In Development?
+
+Ansswer: One of the worst Problems I ran into was finding a way to randomly place the ta movement without having rediculous load time due to the random repeating a value that just did not work. The way I fixed this one was that a random value would be obtained only once, and then would check the next move option until one works, and use that. While in technicallity, the movement was less random, the runtime for ta movement. Another Issue I ran into was the fact that my person classes could nto be used as pointers if the child classes had fucntions that werent derived from the paremt. This was an easier fix, all I did was change the pointer type
+
+Question: Why Did You Use Pointers That Wernt MazePerson For The Person Objects On the Map?
+
+Answer: Because calling under a parent pointer must have virtual function definitions for the individual classes, which would have been unproductive amongs the different details of each of the person types in child classes.
+
+Question: Why Did You Implement Objects Per Level Rather Than In Maze?
+
+Answer: If implemented on the top level maze class, each of the objects would also need a z coordinate, indicating which level the implementation was on. By implementing the objects on the level basis, impleemtation was simplified and less data and runtime was need for manipulation
+
+Question: Why Did You Use Single Function Calls Rather Than A Loop?
+
+Answer: This one was interesing. All it really was was that I couldnt figure out why my loop kept resulting in only one implementation. I later realized it was because I forgot to reset the boolean value that it was reliant on. I stuck with it out of a want to move onto to further implementation
+
+Question: How Did you Come Up With The Menu?
+
+Answer: I've been using a manipualtion of this menu from the last 3 programs, and I modified it this time to have no displayed, and changed it to be a menu for charectors rather than a menu for integer output
