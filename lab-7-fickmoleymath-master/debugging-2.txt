@@ -1,0 +1,7 @@
+Debugging - 2:
+The first step was to run what was already in the program.
+one I had that I ran in gdb.
+I set a break at line 7 and started using the step sequence
+I noticed that the operator didt exist, thus it didnt dynamically copy correctly
+I corrected that using dynarray operators.
+

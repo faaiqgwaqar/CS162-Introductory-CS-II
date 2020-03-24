@@ -1,0 +1,7 @@
+Debugging - 1:
+The first step was to run what was already in the program.
+one I had that I ran in gdb.
+I set a break at line 20 and started using the step sequence
+I noticed that the pointer never had an instanciation
+I corrected that, and freed memory as well, and now it works.
+
